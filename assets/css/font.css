@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Archivo;
+    src: url(../font/Archivo-Light.woff2);
+}
+@font-face {
+    font-family: Archivo;
+    src: url(../font/Archivo-Regular.woff2);
+}
+@font-face {
+    font-family: Archivo;
+    src: url(../font/Archivo-SemiBold.woff2);
+}
+@font-face {
+    font-family: Archivo;
+    src: url(../font/Archivo-Bold.woff2);
+}
+
+@font-face {
+    font-family: NotoSansCJKkr;
+    src: url(../font/NotoSansCJKkr-Light.woff2);
+}
+@font-face {
+    font-family: NotoSansCJKkr;
+    src: url(../font/NotoSansCJKkr-Regular.woff2);
+}
+@font-face {
+    font-family: NotoSansCJKkr;
+    src: url(../font/NotoSansCJKkr-Bold.woff2);
+}
+
+@font-face {
+    font-family: NotoKR;
+    src: url(../font/notokr-medium.woff2);
+}
+@font-face {
+    font-family: NotoKR;
+    src: url(../font/notokr-regular.woff2);
+}
+@font-face {
+    font-family: NotoKR;
+    src: url(../font/notokr-bold.woff2);
+}

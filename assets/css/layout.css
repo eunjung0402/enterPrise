@@ -1,0 +1,122 @@
+@import url(./reset.css);
+@import url(./common.css);
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    z-index: 100;
+    /* transform: translateY(-100%);
+    transition: transform .3s,color .5s; */
+    padding: 17px 72px;
+}
+.header h1 {
+    width: 100px;
+}
+.header .logo {}
+.header .logo img {
+    filter: brightness(0) invert(1);
+}
+.gnb {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 17px 0;
+}
+.gnb .gnb_list {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.gnb .gnb_item {
+}
+.gnb .gnb_item.lang {
+    display: inline-block;
+    color: #fff;
+    padding: 23px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+}
+.gnb .link_gnb {
+    display: flex;
+    align-items: flex-end;
+    padding: 20px 0 18px 25px;
+    font-weight: bold;
+}
+.gnb .link_gnb span {
+    padding: 0 2px;
+}
+.gnb .lang_icon {
+    /* display: flex;
+    align-items: center; */
+    /* padding: 20px 0 18px 25px; */
+}
+.gnb .arrow_icon {
+    position: relative;
+    top: -5px;
+    right: 0;
+}
+.gnb .lang_list {
+    visibility: hidden;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+    text-align: center;
+    background-color: #000;
+    border: 1px solid #5a5a5a;
+    border-radius: 6px;
+    transition: all .3s;
+}
+.gnb .gnb_item.lang:hover .lang_list {
+    visibility: visible;
+}
+.gnb .lang_item {
+    padding-top: 6px;
+    padding-bottom: 2px;
+}
+.gnb .lang_item a {
+    display: block;
+    padding: 2px 14px 4px 13px;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: 600;
+    opacity: .2;
+}
+.gnb .lang_item a:hover {
+    opacity: 1;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 58px 72px;
+    position: relative;
+    color: #fff;
+    background: #000;
+}
+.footer h2 {}
+.footer h2 a {}
+.footer h2 img {
+    width: 193px;
+    display: block;
+}
+.footer .group_info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.footer .group_info .desc {
+    
+}
+.footer .group_info address {
+    margin-top: 10px;
+}
