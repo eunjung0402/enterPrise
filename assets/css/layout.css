@@ -11,8 +11,6 @@
     width: 100%;
     color: #fff;
     z-index: 100;
-    /* transform: translateY(-100%);
-    transition: transform .3s,color .5s; */
     padding: 17px 72px;
 }
 .header h1 {
@@ -58,11 +56,6 @@ header.bg_white .gnb .link_gnb {
 }
 .gnb .link_gnb span {
     padding: 0 2px;
-}
-.gnb .lang_icon {
-    /* display: flex;
-    align-items: center; */
-    /* padding: 20px 0 18px 25px; */
 }
 .gnb .arrow_icon {
     position: relative;

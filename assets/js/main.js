@@ -283,7 +283,6 @@ $(function(){
     // 이노베이션 그라운드 section
     gsap.set('.sc_banner2',{yPercent:100})
     bottomMotion = gsap.timeline({
-        //paused:true
         scrollTrigger:{
             trigger:'footer',
             start:'100% 100%',
@@ -295,6 +294,7 @@ $(function(){
     })
 
     bottomMotion
+    .to('.fix_btn a',{opacity:1,"visibility":"visible"})
     .to(".sc_banner2",{yPercent:0})
     .to('.sc_banner2 .color_item_area .banner_color_bg',{opacity:1})
     .to(".sc_banner2 .color_item_area",{'animation':'marquee 20s infinite linear'})
@@ -309,7 +309,7 @@ $(function(){
             trigger:el,
             start:"0% 0%",    
             end:"100% 100%",     
-            markers:true,       
+            //markers:true,       
             scrub:1,              
             }
         })
@@ -336,5 +336,10 @@ $(function(){
         .to('.gnb .link_gnb',{color:"#fff"},'header')
         .to('.header .lang_icon svg path',{stroke:"#fff"},'header')
         .to('.header .arrow_icon svg path',{stroke:"#fff"},'header')
+    })
+
+    // 메인 비주얼 하단 버튼 클릭시 다음 섹션으로 이동
+    $('.intro_scroll_down').click(function(){
+        gsap.to(window, {duration: 2, scrollTo:"#id_info"});
     })
 })
