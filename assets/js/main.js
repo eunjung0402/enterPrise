@@ -288,7 +288,7 @@ $(function(){
             trigger:'footer',
             start:'100% 100%',
             end:'100% 100%',
-            markers: true,
+            //markers: true,
             scrub:1,
             
         }
@@ -307,9 +307,9 @@ $(function(){
         headerBlackMotion = gsap.timeline({
         scrollTrigger:{
             trigger:el,
-            start:"0% 00%",    
+            start:"0% 0%",    
             end:"100% 100%",     
-            //markers:true,       
+            markers:true,       
             scrub:1,              
             }
         })

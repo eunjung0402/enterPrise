@@ -22,6 +22,9 @@
 .header .logo img {
     filter: brightness(0) invert(1);
 }
+.header.bg_white .logo img {
+    filter: none;
+}
 .gnb {
     position: relative;
     display: flex;
@@ -48,6 +51,10 @@
     align-items: flex-end;
     padding: 20px 0 18px 25px;
     font-weight: bold;
+    color: #fff;
+}
+header.bg_white .gnb .link_gnb {
+    color: #000;
 }
 .gnb .link_gnb span {
     padding: 0 2px;
@@ -90,6 +97,18 @@
 }
 .gnb .lang_item a:hover {
     opacity: 1;
+}
+.header .lang_icon svg path {
+    stroke:#fff
+}
+.header .arrow_icon svg path {
+    stroke:#fff
+}
+.header.bg_white .lang_icon svg path {
+    stroke:#000
+}
+.header.bg_white .arrow_icon svg path {
+    stroke:#000
 }
 
 
