@@ -196,9 +196,7 @@
     position: sticky;
     top: 0;
     height: 100vh;
-    overflow: hidden;
-    /* background: #ff0; */
-    
+    overflow: hidden;  
 }
 .sc_possible .slide_wrap {
     display: flex;
@@ -531,7 +529,7 @@ overflow: hidden;
     font-weight: 700;
     line-height: 1.28;
     color: #fff;
-    opacity: calc(0.9000732064421669 * 2.5);
+    opacity: calc(0.9 * 2.5);
 }
 .hr_scroll .text_item .content_box {
     height: 100%;
@@ -818,8 +816,6 @@ overflow: hidden;
     top: 50%;
     transform: translateY(-50%);
     color: #fff;
-    animation: c 1s linear forwards paused;
-    animation-delay: calc(0.5991615853658536 * -1s);
     font-weight: 700;
     width: 50%;
 }
